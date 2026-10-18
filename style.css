@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden; /* 🔥 no scroll */
+}
+
+/* BACKGROUND IMAGE */
+body {
+  background: url("assets/Screenshot 2026-05-03 113007.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* CONTENT CENTER */
+.content {
+  height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #5a3e36;
+
+  padding: 20px;
+}
+
+/* UI */
+.logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Layout */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+}
+
+.login-container, .admin-panel {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 24px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.login-container h2, .admin-panel h2 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.login-container input, .login-container button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.login-container button:hover {
+  background: #388e3c;
+}
+
+.error {
+  color: #d32f2f;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.admin-panel ul {
+  list-style: none;
+  padding: 0;
+}
+.admin-panel ul li {
+  margin: 10px 0;
+}
+.admin-panel a {
+  color: #1976d2;
+  text-decoration: none;
+}
+.admin-panel a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .login-container, .admin-panel {
+    max-width: 98vw;
+    margin: 16px 1vw;
+    padding: 16px 6px;
+  }
+  h2, h3 {
+    font-size: 1.3em;
+  }
+}
+.tagline {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.pet {
+  width: 200px;
+  margin: 10px 0;
+}
+
+.desc {
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  background: #8b6b5c;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #6f5448;
+}
